@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.app{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
+.cart-continer{
+  width: 300px;
+  height:600px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.cart-continer img{
+  width:300px;
+  height: 300px;
+}
+.cart-continer h2,h5,button{
+  margin-left: 80px;
+}
+.cart-continer p{
+  margin-left: 100px;
+}
+.addIcon{
+  color: black;
+  margin-right: 10px;
+}
+
+
